@@ -11,7 +11,6 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "homepage": "https://Alejandro3008.github.io/citas-react-vite/",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
