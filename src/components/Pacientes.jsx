@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import { Paciente } from "./Paciente"
+import { Paciente } from "./Paciente";
+import pet from "../assets/3500_2_13.jpg";
 export const Pacientes = ({pacientes,setPacienteEdit,delete_paciente}) => {
     return (
         <div className="md:w-1/2 lg:3/5 md:h-screen overflow-y-scroll">
@@ -15,6 +16,7 @@ export const Pacientes = ({pacientes,setPacienteEdit,delete_paciente}) => {
                 <>
                     <h2 className="font-black text-3xl text-center">No hay Pacientes</h2>
                     <p className="text-lg mt-5 text-center mb-3">Empieza a registrarlos <span className="text-indigo-600 font-bold"> y apareceran en la lista</span></p>
+                    <img src={pet} alt="Imagen"/>
                 </>
             )}
         </div>
